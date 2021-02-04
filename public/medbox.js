@@ -143,7 +143,7 @@ MedBox.prototype.log = function(data){
 }
 
 MedBox.prototype.openBoxByQRCode = function(qrcode){
-      const time_scan = 10000;
+      const time_scan = 4;
       const scandebug = false;
 
       function scanDevice(filter={}, callback) {
